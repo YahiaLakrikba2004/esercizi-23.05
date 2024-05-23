@@ -1,7 +1,7 @@
 package esercizio1;
 
-public abstract class Dipendente {
-    private long matricola;
+public abstract class Dipendente implements CheckIn{
+    private int matricola;
     private double stipendio;
 
 
@@ -35,6 +35,11 @@ public abstract class Dipendente {
     }
 
     public abstract double calculateSalary();
+
+    @Override
+    public void checkIn() {
+        System.out.println("il dipendente con matricola " + getMatricola() +" inizia il suo turno di lavoro" );
+    }
 
     @Override
     public String toString() {

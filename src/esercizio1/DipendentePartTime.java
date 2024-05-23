@@ -17,7 +17,7 @@ public class DipendentePartTime extends Dipendente {
 //    public static void main(String[] args) {
 //        Dipendente dipendente = new DipendentePartTime(54321, 2500, Dipartimento.Vendite);
 //        System.out.println("La matricola del dipendente è " + dipendente.getMatricola());
-//        System.out.println("Stipedio calcolato: " + dipendente.calculateSalary() + " €");
+//        System.out.println("Stipendio calcolato: " + dipendente.calculateSalary() + " €");
 //        System.out.println("Il dipartimento del dipendente è " + dipendente.getNome());
 //    }
 

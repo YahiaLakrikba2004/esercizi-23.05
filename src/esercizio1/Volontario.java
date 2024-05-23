@@ -1,9 +1,11 @@
 package esercizio1;
 
-public class Volontario {
+public class Volontario implements CheckIn {
     private String nome;
     private int eta;
     private String cv;
+
+
 
     public Volontario(String nome, int eta, String cv) {
         this.nome = nome;
@@ -36,6 +38,10 @@ public class Volontario {
     }
 
 
+    @Override
+    public void checkIn() {
+        System.out.println("Il volontario " + getNome() + " inizia il suo servizio.");
+    }
 
 
 }
