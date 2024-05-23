@@ -25,19 +25,6 @@ public class Volontario implements CheckIn {
         return cv;
     }
 
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
-
-    public void setEta(int eta) {
-        this.eta = eta;
-    }
-
-    public void setCv(String cv) {
-        this.cv = cv;
-    }
-
-
     @Override
     public void checkIn() {
         System.out.println("Il volontario " + getNome() + " inizia il suo servizio.");

@@ -14,14 +14,6 @@ public class Dirigente extends Dipendente {
         return getStipendio() + bonus;
     }
 
-    public double getBonus() {
-        return bonus;
-    }
-
-    public void setBonus(double bonus) {
-        this.bonus = bonus;
-    }
-
     @Override
     public String toString() {
         return "Dirigente{" +
